@@ -21,7 +21,7 @@ public class Desafio2 {
 		
 		double MontanteFinal = CapitalInicial * Math.pow((1 + Juros), TempoM);
 		
-		System.out.println("O montante total foi de R$:" + MontanteFinal);
+		System.out.println("O montante total foi de R$ " + MontanteFinal);
 		
 		sc.close();												
 	}
