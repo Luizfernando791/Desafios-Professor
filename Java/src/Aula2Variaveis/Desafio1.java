@@ -1,8 +1,8 @@
 
-package Variaveis;
+package Aula2Variaveis;
 import java.util.Scanner;
 
-public class TipoDados {
+public class Desafio1 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
