@@ -8,8 +8,8 @@ public class Atividade3 {
 		System.out.println("digite sua idade: " );
 	    int A =  myObj.nextInt() ;  
 
-	    System.out.println(": " );
-	    double B =  myObj.nextDouble() ;  
+	    System.out.println("sexo (m) ou (f): " );
+	    String B =  myObj.nextLine() ;  
 
 	    System.out.println("digite o comprimento do terceiro lado do triangulo (C): ");
 	    double C =  myObj.nextDouble() ; 
