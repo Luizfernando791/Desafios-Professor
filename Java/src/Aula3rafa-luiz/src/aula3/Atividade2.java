@@ -5,25 +5,17 @@ public class Atividade2 {
 	public static void main(String[] args) {
 		Scanner myObj = new Scanner(System.in); 
 		
-		System.out.println("digite o comprimento do primeiro lado do triangulo (A): " );
-	    double A =  myObj.nextDouble() ;  
+		System.out.println("Digite quantos KM voce percorreu: " );
+	    double Km =  myObj.nextDouble() ;
+	    double multa = 90 ;
+	    if (Km > 90) {
+	    	multa = (Km - multa )* 10 ; 
+	    	System.out.println("Voce ultrapassou o limite de velocidade!" + multa);
 
-	    System.out.println("digite o comprimento do segundo lado do triangulo (B): " );
-	    double B =  myObj.nextDouble() ;  
-
-	    System.out.println("digite o comprimento do terceiro lado do triangulo (C): ");
-	    double C =  myObj.nextDouble() ; 
-	     
-	    
-	    if (A == B && C == B && A == C) {
-			System.out.println("Os valores Equilátero");
 		}
-	    else if(A == B || C == B || A == C) {
-	    	System.out.println("Os valores vão formar Isósceles");
-		}else{
-			System.out.println("Os valores vão formar Escaleno");
+	    else {
+	    	System.out.println("tudo certo");
 		}
-
 	}
 
 }
