@@ -1,10 +1,10 @@
 package aula3;
 import java.util.Scanner;
-public class Atividade {
+public class Atividade2 {
 
 	public static void main(String[] args) {
 		Scanner myObj = new Scanner(System.in); 
-	    
+		
 		System.out.println("digite o comprimento do primeiro lado do triangulo (A): " );
 	    double A =  myObj.nextDouble() ;  
 
@@ -15,12 +15,15 @@ public class Atividade {
 	    double C =  myObj.nextDouble() ; 
 	     
 	    
-	    if (A+B > C && A + C > B && B + C > A) {
-			System.out.println("os valores " + A + " E " + B +" E " + C +" são validos para formar um triangulo");
+	    if (A == B && C == B && A == C) {
+			System.out.println("Os valores Equilátero");
 		}
-	    else {
-	    	System.out.println("nao forma um triangulo truta");
+	    else if(A == B || C == B || A == C) {
+	    	System.out.println("Os valores vão formar Isósceles");
+		}else{
+			System.out.println("Os valores vão formar Escaleno");
 		}
+
 	}
 
 }
