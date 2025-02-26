@@ -1,7 +1,8 @@
 
 package Aula3GuiFer;
 import java.util.Scanner;
-public class Aula3 {
+
+public class Desafio1 {
 	
 	public static void main(String[] args) {		
 		Scanner nota = new Scanner(System.in);
