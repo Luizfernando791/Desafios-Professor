@@ -25,7 +25,7 @@ public class Atividade4 {
         switch (opcao) {
             case 1:
                 double resultado1 = reais * dolar;
-                System.out.printf("A conversão de R$ " + reais + " para dólares é US$ "+ resultado1);
+                System.out.printf("A conversão de R$ " + reais + \" para dólares é US$ "+ resultado1);
                 break;
             case 2:
                 double resultado2 = reais * euro;
