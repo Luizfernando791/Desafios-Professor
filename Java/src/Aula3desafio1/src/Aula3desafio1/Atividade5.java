@@ -7,31 +7,26 @@ public class Atividade5 {
 
         Scanner MeuObjeto = new Scanner(System.in);
 
-        System.out.println("| Conversor de Moedas |");
-        System.out.println("| 1- Dólar (R$ 1 = US$ 0.20) |");
-        System.out.println("| 2- Euro (R$ 1 = € 0.18) |");
-        System.out.println("| 3- Libra (R$ 1 = £ 0.15) |");
+        System.out.println("| Calculo de Taxa de empréstimo |");
 
-        double dolar = 0.20;
-        double euro = 0.18;
-        double libra = 0.15;
+        System.out.println("|Numero de parcelas (6 , 12 , 24) meses");
 
-        System.out.print("Digite a quantidade de dinheiro para converter (R$): ");
-        double reais = MeuObjeto.nextDouble();
+        System.out.print("Digite um valor para fazer um empréstimo(R$): ");
+        double emprestimo = MeuObjeto.nextDouble();
 
-        System.out.print("Digite a opção desejada para conversão: ");
+        System.out.print("Digite a opção desejada para fazer um numero de parcelas: ");
         int opcao = MeuObjeto.nextInt();
 
         switch (opcao) {
-            case 1:
-                double resultado1 = reais * dolar;
-                System.out.printf("A conversão de R$ " + reais + \" para dólares é US$ "+ resultado1);
+            case 6:
+                double resultado1 = emprestimo + 0.05;
+                System.out.printf("O valor do emprestimo R$ " + emprestimo + " para dólares é US$ "+ resultado1);
                 break;
-            case 2:
+            case 12:
                 double resultado2 = reais * euro;
                 System.out.printf("A conversão de R$" + reais + " para euros é €" + resultado2);
                 break;
-            case 3:
+            case 24:
                 double resultado3 = reais * libra;
                 System.out.printf("A conversão de R$" + reais + "para libras é £" + resultado3);
                 break;
