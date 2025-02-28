@@ -4,6 +4,8 @@ public class Atividade {
 
 	public static void main(String[] args) {
 		Scanner myObj = new Scanner(System.in); 
+
+		System.out.println("|Verificação de um triangulo|");
 	    
 		System.out.println("digite o comprimento do primeiro lado do triangulo (A): " );
 	    double A =  myObj.nextDouble() ;  

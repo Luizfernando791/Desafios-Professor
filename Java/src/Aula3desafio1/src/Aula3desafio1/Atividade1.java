@@ -6,6 +6,8 @@ public class Atividade1 {
 
 	public static void main(String[] args) {
 			Scanner myObj = new Scanner(System.in); 
+
+			System.out.println("|Sistema de Notas Detalhado|");
 			
 			System.out.println("digite a primeira nota " );
 		    double n1 =  myObj.nextDouble() ;  
